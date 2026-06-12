@@ -156,7 +156,7 @@ Most scripts automatically detect available hardware and use:
 ## Model Checkpoints
 
 Two checkpoints are required (also accessible via Google Drive):
-> **[Download all data — Google Drive](https://drive.google.com/drive/folders/1DuAQra2Dh7xfTb9Xb-SSptn7cD1ecKah?usp=drive_link)**
+> **[Download checkpoints — Google Drive](https://drive.google.com/drive/folders/1DuAQra2Dh7xfTb9Xb-SSptn7cD1ecKah?usp=drive_link)**
 
 | Checkpoint | Description | Download |
 |---|---|---|
