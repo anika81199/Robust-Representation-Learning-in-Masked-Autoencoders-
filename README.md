@@ -89,15 +89,15 @@ All other `.py` files at the repository root are **original contributions** of t
 
 | File | Paper Section | What It Does |
 |---|---|---|
-| `tsne_visualizations.py` | §4.1 | Extracts layer-wise token embeddings and produces t-SNE plots |
-| `attn_maps.py` | §4.1 | Computes and plots mean attention distances per head per layer |
-| `subspace_geometry.py` | §4.1 | SVD-based subspace analysis; principal angles and min singular values |
-| `attention_guided_occlusion.py` | §3.2, §4.2 | Attention rollout + patch occlusion; generates `occluded_*/` folders |
-| `MAEClassifier.py` | §4.2 | Classification under clean, blurred, and occluded inputs |
-| `MAEClassifier_otherDatasets.py` | §4.2 | Classification on ImageNet-A, ImageNet-R, ImageNet-C |
-| `cosine_similarity_analysis.py` | §4.3 | Directional alignment between clean and perturbed embeddings |
-| `common_features_analysis.py` | §4.3 | Head-wise common-feature retention under perturbations |
-| `finetune_head_custom_dataset.py` | §4.2 | Freezes MAE encoder; trains only the linear classification head |
+| `tsne_visualizations.py` | 4.1 | Extracts layer-wise token embeddings and produces t-SNE plots |
+| `attn_maps.py` | 4.1 | Computes and plots mean attention distances per head per layer |
+| `subspace_geometry.py` | 4.1 | SVD-based subspace analysis; principal angles and min singular values |
+| `attention_guided_occlusion.py` | 3.2 | Attention rollout + patch occlusion; generates `occluded_*/` folders |
+| `MAEClassifier.py` | 4.2 | Classification under clean, blurred, and occluded inputs |
+| `MAEClassifier_otherDatasets.py` | 4.2 | Classification on ImageNet-A, ImageNet-R, ImageNet-C |
+| `cosine_similarity_analysis.py` | 4.3 | Directional alignment between clean and perturbed embeddings |
+| `common_features_analysis.py` | 4.3 | Head-wise common-feature retention under perturbations |
+| `finetune_head_custom_dataset.py` | 4.2 | Freezes MAE encoder; trains only the linear classification head |
 
 ---
 
@@ -155,7 +155,8 @@ Most scripts automatically detect available hardware and use:
 
 ## Model Checkpoints
 
-Two checkpoints are required:
+Two checkpoints are required (also accessible via Google Drive):
+> **[Download all data — Google Drive](https://drive.google.com/drive/folders/1DuAQra2Dh7xfTb9Xb-SSptn7cD1ecKah?usp=drive_link)**
 
 | Checkpoint | Description | Download |
 |---|---|---|
