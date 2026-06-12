@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+imagenet-a/
+imagenet-r/
+Imagenet-C/
+256_ObjectCategories/
+train/
