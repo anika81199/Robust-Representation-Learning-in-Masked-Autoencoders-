@@ -182,9 +182,9 @@ The Google Drive folder contains the following, ready to use with no extra proce
 | `ImageNet/` | 10-class ImageNet-1K subset (the fixed classes listed below) | All main experiments |
 | `occluded_0/` … `occluded_90/` | 10 attention-guided occlusion folders, each containing the same 10 ImageNet classes at that occlusion level | `MAEClassifier.py` |
 | `train/` | 200 images from the SAM dataset (used for attention distance validation) | `attn_maps.py` |
-<!-- | `imagenet-a/` | ImageNet-A adversarial natural images | `MAEClassifier_otherDatasets.py` |
+| `imagenet-a/` | ImageNet-A adversarial natural images | `MAEClassifier_otherDatasets.py` |
 | `imagenet-r/` | ImageNet-R artistic renditions | `MAEClassifier_otherDatasets.py` |
-| `Imagenet-C/` | ImageNet-C corruptions (15 types × 5 severities) | `MAEClassifier_otherDatasets.py` | -->
+| `Imagenet-C/` | ImageNet-C corruptions (15 types × 5 severities) | `MAEClassifier_otherDatasets.py` |
 
 Download and extract all folders into the **repository root**, preserving the folder names exactly as listed above.
 
